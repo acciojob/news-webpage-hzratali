@@ -11,32 +11,39 @@ body {
     text-align: center;
     color: #fff;
 }
-
+.hero{
+	display:flex;
+	justify-content:space-between
+}
 .latest-news-section {
-    background-color: #011e29;
+    background-color: #fff;
     padding: 20px;
     width: 80%;
-    margin: 20px auto;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 .latest-news-section h2 {
-    color: #fff;
-}
-
-.latest-news-section ul {
-    list-style-type: none;
-    padding: 0;
+    color: black;
 }
 
 .latest-news-section li {
-    color: #fff;
+    color: black;
 }
-
+.box-3{
+	background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 8px;
+}
 .pictorial-news-section {
     background-color: #fff;
     padding: 20px;
     width: 80%;
-    margin: 20px auto;
+    margin: 20px 10px;
     text-align: center;
     border-radius: 8px;
 }
@@ -47,6 +54,11 @@ body {
 
 .image-container {
     display: flex;
+	flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
+}
+img{
+	width: 200px;
+	margin: 2px;
 }
